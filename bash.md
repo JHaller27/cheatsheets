@@ -376,7 +376,7 @@ Note that `[[` is actually a command/program that returns either `0` (true) or `
 | ---                     | ---                     |
 | `[[ -e FILE ]]`         | Exists                  |
 | `[[ -r FILE ]]`         | Readable                |
-| `[[ -h FILE ]]`         | Symlink                 |
+| `[[ -L FILE ]]`         | Symlink                 |
 | `[[ -d FILE ]]`         | Directory               |
 | `[[ -w FILE ]]`         | Writable                |
 | `[[ -s FILE ]]`         | Size is > 0 bytes       |
